@@ -3,6 +3,7 @@ import { Box } from '@material-ui/core'
 import React, { Component } from 'react'
 import AboutUs from '../../Components/AboutUs/AboutUs'
 import MainImg from '../../Components/MainImg/MainImg'
+import Completed from '../Projects/Completed/Completed'
 
 export default class Content extends Component {
     render() {
@@ -14,6 +15,7 @@ export default class Content extends Component {
                 </Box>
                 <MainImg />
                 <AboutUs />
+                <Completed />
             </div>
         )
     }

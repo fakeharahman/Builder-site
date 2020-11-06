@@ -1,0 +1,47 @@
+.ProjectCard img{
+    max-width: 50%;
+    height: 50%;
+}
+.text a{
+    /* font-family: 'IBM Plex Serif','Heebo', sans-serif; */
+    color: #ba8914;
+}
+
+@media(min-width:800px){
+    .ProjectCard{
+        margin-left: 10%;
+        /* max-width: 60%; */
+        display: flex;
+        justify-content: space-between;
+    }
+    .ProjectCard img{
+        /* float: left; */
+        flex-shrink: 20;
+    }
+    .text{
+        /* margin: 0% 20% 20% 0; */
+        /* padding-top: 1%;
+        left: 55%;
+        margin-top: 5%; */
+        width: 30%;
+        /* height: 70px; */
+        background-color: #fff;
+        /* position: absolute; */
+    }
+    .text p{
+        font-size: 15px;
+    }
+    
+}
+@media(min-width:1000px){
+    .text{
+        /* margin: 0% 20% 20% 0; */
+        /* padding-top: 1%;
+        left: 55%;
+        margin-top: 10%; */
+        width: 30%;
+        /* height: 70px; */
+        background-color: #fff;
+        /* position: absolute; */
+    }
+}
