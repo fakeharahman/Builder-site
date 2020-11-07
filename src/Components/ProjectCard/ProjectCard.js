@@ -1,7 +1,7 @@
 import classes from './ProjectCard.module.css'
 import React from 'react'
 import Img from '../../assets/1.jpg'
-import { Box } from '@material-ui/core'
+// import { Box } from '@material-ui/core'
 
 export default function ProjectCard() {
     return (
@@ -15,7 +15,7 @@ export default function ProjectCard() {
                 <br />
                 <p><a href='/'>Learn More!</a></p>
             </div>
-            <Box className={classes.space} />
+            {/* <Box className={classes.space} /> */}
         </div>
     )
 }

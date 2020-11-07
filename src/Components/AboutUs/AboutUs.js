@@ -3,7 +3,7 @@ import React from "react";
 
 export default function AboutUs() {
   return (
-    <Box p={3} >
+    <Box py={3} >
       <h1>About Us</h1>
       <br />
       <p>
@@ -21,7 +21,7 @@ export default function AboutUs() {
       </p>
       <br />
 
-      <Box width="100%" padd bgcolor='#fff'>
+      <Box width="100%" padd bgcolor='#f0e1b9ff'>
       <br />
       <h2>Why us</h2>
       <p>

@@ -1,5 +1,16 @@
 .ProjectCard img{
     max-width: 80%;
+    display: inline-block;
+}
+.text{
+    border: 2px black solid;
+    background-color:#f0e1b9ff;
+    /* margin-top: 1rem; */
+    padding: 1rem 0;
+    margin: 1rem;
+}
+.text p{
+    margin-bottom: 10px;
 }
 .text a{
     /* font-family: 'IBM Plex Serif','Heebo', sans-serif; */
@@ -13,6 +24,8 @@
     }
     .ProjectCard img{
         float: left;
+        white-space: nowrap;
+        overflow: visible;
     }
     .text{
         /* margin: 0% 20% 20% 0; */

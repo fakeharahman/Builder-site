@@ -2,9 +2,12 @@
     font-family: 'IBM Plex Serif','Heebo', sans-serif;
     font-size: 30px !important;
 }
+.header p{
+    color: #ba8914;
+}
 .header{
     background-color: #fff;
-    color: #ba8914;
+    
 }
 @media(min-width: 600px){
     .h1{
