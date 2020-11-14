@@ -1,12 +1,43 @@
-import classes from "./MainImg.module.css";
+import "./MainImg.css";
 // import { Box } from "@material-ui/core";
+import { Slide } from 'react-slideshow-image';
 import React from "react";
 import Image from "../../assets/mainImg.jpg";
+import Img1 from "../../assets/1.jpg";
+import 'react-slideshow-image/dist/styles.css'
+
+const slideImages = [
+  Image,
+  Img1,
+  Image
+];
+
 
 export default function MainImg() {
   return (
-    <div className={classes.MainImg}>
-      <img src={Image} alt="Welcome" />
+    <div className='MainImg' >
+      {/* <img src={Image} /> */}
+      <Slide >
+      {slideImages.map((each, index) => (
+          <div key={index} style={{width: "100%"}}>
+            <img style={{ objectFit: "cover", width: "100%", maxHeight: 'calc(100vh - 56px)' }} alt="Welcome" src={each} />
+          </div>
+        ))}
+      </Slide>
+         {/* <Slide easing="ease">
+         <div className="each-slide">
+            <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
+            </div>
+          </div>
+          <div className="each-slide">
+            <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
+            </div>
+          </div>
+          <div className="each-slide">
+            <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
+            </div>
+          </div>
+        </Slide> */}
     </div>
   );
 }

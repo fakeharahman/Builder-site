@@ -1,9 +1,12 @@
+import classes from "./AboutUs.module.css";
 import { Box } from "@material-ui/core";
 import React from "react";
+import DoneIcon from '@material-ui/icons/Done';
 
 export default function AboutUs() {
   return (
-    <Box py={3} >
+    <Box py={3}  >
+      <div className={classes.AboutUs}>
       <h1>About Us</h1>
       <br />
       <p>
@@ -19,21 +22,31 @@ export default function AboutUs() {
         roof. Every housing project is built with finesse and keeping in mind
         consumer satisfaction.
       </p>
+      </div>
       <br />
 
-      <Box width="100%" padd bgcolor='#f0e1b9ff'>
+      <Box width="100%" padd bgcolor='#f0e1b9ff' className={classes.WhyUs}>
+      <Box>
       <br />
+      <DoneIcon />
+
       <h2>Why us</h2>
       <p>
         •Passionate<br /> •Commitment<br /> •Impeccable<br /> •Quality<br /> •Timely Completion<br />
         •Professionalism{" "}
       </p>
+      <br />
+      </Box>
+      <Box>
+      <br />
+      <DoneIcon />
       <h2>Our Core Values</h2>
       <p>
-      •Honesty<br /> •Integrated<br /> •Professionalism<br /> •Commitment to quality and class<br />
+      •Honesty<br /> •Integrated<br /> •Professionalism<br /> 
       •Transparency<br /> •Reliability<br /> •Creativity<br /> •Time Management
       </p>
       < br />
+      </Box>
       </Box>
     </Box>
   );

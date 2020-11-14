@@ -6,6 +6,7 @@ import SmolProjectCard from '../../../Components/SmolProjectCard/SmolProjectCard
 import Img1 from '../../../assets/2.jpg'
 import Img2 from '../../../assets/1.jpg'
 
+
 export default function Completed() {
     let posts=[{title: 'Shad Plaza', url: Img1}, {title:"building 2", url: Img2}, {title: 'Shad Plaza', url: Img1}].map(building=>{
         return <SmolProjectCard title={building.title} url={building.url} />
@@ -20,6 +21,7 @@ export default function Completed() {
               {posts}
           </Box>
           </Box>
+
         </div>
     )
 }

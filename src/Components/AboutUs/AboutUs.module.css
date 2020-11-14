@@ -1,0 +1,15 @@
+.WhyUs{
+   display: flex;
+   justify-content: space-around;
+}
+.WhyUs h2{
+/* font-family: 'IBM Plex Serif','Heebo', sans-serif; ; */
+padding: .5rem;
+font-size: 28px;
+}
+@media(min-width: 600px){
+    .AboutUs{
+        width: 60%;
+        margin: auto;
+    }
+}

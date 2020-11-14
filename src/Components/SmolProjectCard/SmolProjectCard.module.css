@@ -1,0 +1,5 @@
+.image:hover{
+    box-shadow: 10px 10px 5px gray;
+    transform:scale(1.1);
+    transition: all .5s;
+}
