@@ -1,15 +1,31 @@
-.WhyUs{
-   display: flex;
-   justify-content: space-around;
+
+.AboutUs img{
+    max-width: 100%;
 }
-.WhyUs h2{
-/* font-family: 'IBM Plex Serif','Heebo', sans-serif; ; */
-padding: .5rem;
-font-size: 28px;
+.AboutUs p span{
+    color: #Ba8914;
+    font-size: 19px;
+    font-family: 'Kite One', sans-serif;
 }
-@media(min-width: 600px){
+.AboutUs p{
+    font-size: 15px;
+}
+@media(min-width: 1000px){
+    .AboutUs img{
+       max-width:  38vw;
+       object-fit: cover;
+       /* height: min-content; */
+       /* height: 80%; */
+    }
     .AboutUs{
-        width: 60%;
-        margin: auto;
+       display: flex;
+       align-items: center;
+
+    }
+    .AboutUs p{
+        margin: 0 10%;
+       text-align: left;
+       font-size: 18px;
+
     }
 }

@@ -1,0 +1,28 @@
+.WhyUs{
+    padding: 0 3%;
+ }
+ .Values{
+     /* width: 25%; */
+     padding: 3%;
+ }
+ .Values h4{
+    color: #Ba8914;
+ }
+ .WhyUs h2{
+ /* font-family: 'IBM Plex Serif','Heebo', sans-serif; ; */
+ padding: .5rem;
+ font-size: 28px;
+ }
+ @media(min-width: 1000px){
+    .WhyUs{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 0 3%;
+     }
+     .Values{
+         width: 25%;
+         padding: 3%;
+     }
+     
+}

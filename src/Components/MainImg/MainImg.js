@@ -1,6 +1,6 @@
 import "./MainImg.css";
 // import { Box } from "@material-ui/core";
-import { Slide } from 'react-slideshow-image';
+import { Fade } from 'react-slideshow-image';
 import React from "react";
 import Image from "../../assets/mainImg.jpg";
 import Img1 from "../../assets/1.jpg";
@@ -17,13 +17,13 @@ export default function MainImg() {
   return (
     <div className='MainImg' >
       {/* <img src={Image} /> */}
-      <Slide >
+      <Fade duration ={3000} transitionDuration={1000} easing="ease-out" pauseOnHover={false}>
       {slideImages.map((each, index) => (
           <div key={index} style={{width: "100%"}}>
             <img style={{ objectFit: "cover", width: "100%", maxHeight: 'calc(100vh - 56px)' }} alt="Welcome" src={each} />
           </div>
         ))}
-      </Slide>
+      </Fade>
          {/* <Slide easing="ease">
          <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
