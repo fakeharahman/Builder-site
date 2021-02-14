@@ -1,0 +1,46 @@
+
+.FeaturedProject img{
+    max-width: 100%;
+}
+.FeaturedProject p span{
+    color: #Ba8914;
+    font-size: 19px;
+    font-family: 'Kite One', sans-serif;
+}
+.FeaturedProject p{
+    font-size: 15px;
+}
+.FeaturedProject h4{
+    text-align: left ;
+}
+.FeaturedProject ul{
+    text-align: left ;
+}
+@media(min-width: 1000px){
+    .FeaturedProject h4{
+        text-align: left ;
+        margin: 0 10%;
+    }
+    .FeaturedProject ul{
+        text-align: left ;
+        margin: 0 10%;
+    }
+    .FeaturedProject img{
+       max-width:  38vw;
+       object-fit: cover;
+       /* height: min-content; */
+       /* height: 80%; */
+    }
+    .FeaturedProject{
+       display: flex;
+       align-items: center;
+       flex-direction: row-reverse;
+
+    }
+    .FeaturedProject p{
+        margin: 0 10%;
+       text-align: left;
+       font-size: 18px;
+
+    }
+}

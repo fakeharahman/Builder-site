@@ -1,0 +1,26 @@
+.Counter{
+    background-color: #d8d7d7;
+    /* background: transparent; */
+    padding-bottom: 3%;
+}
+.Counter p{
+    margin: 0;
+    padding: 3% 0;
+    color: black;
+
+}
+.Counter p span{
+    font-size: 3rem;
+    color: #ba8914;
+}
+.Counter img{
+    position: fixed;
+    /* z-index: -1; */
+}
+@media(min-width: 1000px){
+    .Counter{
+        display: flex;
+        justify-content: space-around;
+        padding: 1% 0;
+    }
+}

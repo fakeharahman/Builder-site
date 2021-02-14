@@ -1,6 +1,6 @@
 .Enquiry{
     padding: 3% 15%;
-    /* background-color: antiquewhite; */
+    background-color: antiquewhite;
 }
 
 @media(min-width: 600px){

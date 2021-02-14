@@ -4,11 +4,14 @@ import { Fade } from 'react-slideshow-image';
 import React from "react";
 import Image from "../../assets/mainImg.jpg";
 import Img1 from "../../assets/1.jpg";
+import Img2 from "../../assets/2.jpg";
+import Img3 from "../../assets/gilanie.jpg";
 import 'react-slideshow-image/dist/styles.css'
 
 const slideImages = [
-  Image,
-  Img1,
+  Img3,
+  Img2,
+  // Img1,
   Image
 ];
 

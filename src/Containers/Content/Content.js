@@ -8,6 +8,8 @@ import Ongoing from '../Projects/Ongoing/Ongoiong'
 import Enquiry from '../Enquiry/Enquiry'
 import ContactUs from '../../Components/ContactUs/ContactUs'
 import WhyUs from '../../Components/WhyUs/WhyUs'
+import FeaturesProject from '../../Components/FeaturedProject/FeaturesProject'
+import Counter from '../../Components/Counter/Counter'
 
 export default class Content extends Component {
     render() {
@@ -20,8 +22,10 @@ export default class Content extends Component {
                 <MainImg />
                 <AboutUs />
                 <WhyUs />
-                <Completed />
-                <Ongoing />
+                <FeaturesProject />
+                <Counter />
+                {/* <Completed />
+                <Ongoing /> */}
                 <Enquiry />
                 <ContactUs />
             </div>
